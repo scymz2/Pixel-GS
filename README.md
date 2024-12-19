@@ -29,9 +29,11 @@ while <strong>Pixel-GS (right)</strong> by considering the conditions for point 
 ## Installation
 
 ```
-conda create -n pixelgs python=3.9 -y
+conda clean --all
+conda create -n pixelgs python=3.8 -y
+conda activate pixelgs
 
-conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 
 pip install -r requirements.txt
 
