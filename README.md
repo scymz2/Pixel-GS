@@ -33,7 +33,7 @@ conda clean --all
 conda create -n pixelgs python=3.8 -y
 conda activate pixelgs
 
-conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 
 pip install -r requirements.txt
 
