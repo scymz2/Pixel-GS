@@ -28,7 +28,8 @@ while <strong>Pixel-GS (right)</strong> by considering the conditions for point 
 
 ## Installation
 
-```
+```shell
+# compile under gcc-11
 conda clean --all
 conda create -n pixelgs python=3.8 -y
 conda activate pixelgs
